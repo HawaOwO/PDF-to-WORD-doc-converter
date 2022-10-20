@@ -1,0 +1,199 @@
+1 
+ 
+ 
+ 
+SCHOOL OF COMPUTER SCIENCES  
+ACADEMIC SESSION: 2021/2022 
+CSE241/CMM341 FOUNDATIONS OF SOFTWARE ENGINEERING 
+ 
+ 
+Software Engineering Project - Report I Guidelines 
+ 
+I. Introduction 
+ 
+Project Report I covers three main elements of the software engineering project:  
+ 
+A. Project Background 
+ 
+The project background describes the problem the project seeks to address or it is an 
+opportunity that will lead to a great innovation. It justifies why this project is important and 
+why the project sponsors or clients should support it. It provides an overview of the proposed 
+system, system description and functionality together with project team structure and roles. 
+ 
+B. System Requirements  
+ 
+The requirements for a system are the descriptions of the services that a system should 
+provide (functional requirements) and the constraints on its operation (non-functional 
+requirements). The software requirements document (sometimes called the software 
+requirements specification or SRS) is an official statement of what the system developers 
+should implement. For this course, students are exposed to both; plan-driven and agile 
+approaches, where some necessary requirements documentations are prepared. For plan-
+driven, use cases are prepared as the basis for the functional architecture and design models.  
+For rapidly changing circumstances, rather than a formal document, agile approaches often 
+collect user requirements incrementally and write these on cards or whiteboards as short 
+user stories.  
+ 
+C. System Architecture and Design 
+ 
+Architecture and design are concerned with understanding how a software system should be 
+organized and designing the overall structure of that system. It is the critical link between 
+design and requirements engineering, as it identifies the main structural components in a 
+system and the relationships between them. The level of detail in the design depends on the 
+2 
+type of system being developed and whether you are using a plan-driven or agile approach. 
+In agile, you should develop the architectural and design models that are useful for 
+communication.  
+ 
+II. Tasks 
+ 
+Prepare a project report with the following sections and subsections in sequence: 
+ 
+Cover page 
+- Table of contents 
+- List of figures 
+- List of tables 
+ 
+1. Project Background 
+ 
+1.1 Problem background 
+ 
+1.2 Organization or system environment background 
+ 
+1.3 System overview 
+ 
+1.3.1 System objectives 
+ 
+1.3.2 System module breakdown  
+ 
+- Decompose your system into modules (or also known as sub-systems). Minimally, 
+each member of the team will lead at least a module.  Figure 1 shows an example 
+of module breakdown diagram. 
+ 
+ 
+Figure 1: Module breakdown diagram 
+ 
+Note: You can reuse some text from the project proposal but try as much as possible to 
+refine and enhance it.  
+ 
+ 
+1.4 Project planning 
+ 
+1.4.1 Project team introduction 
+ 
+3 
+- Introduce your team - give your team a unique name and provide a group 
+picture of the entire team.  
+ 
+- Introduce each team member - include a picture and a brief biography of each 
+team member.  
+ 
+ 
+1.4.2 Project team involvement  
+ 
+- Prepare a brief agreement that include the guidelines for the following: 
+ 
+a. methods of communication (email, phone, messenger, text, ...) 
+ 
+b. meeting attendance (when to meet, whether all meetings are 
+mandatory, ...) 
+ 
+c. running meetings (when, where, face-to-face vs. online, who takes 
+minutes/notes, ...) 
+ 
+d. division of project roles - identify a project leader, two business analysts 
+and two software engineers 
+ 
+e. division of work – identify who does what system modules 
+ 
+ 
+2. System Requirements 
+ 
+2.1 Functional requirements – User Stories 
+ 
+- Write user stories, prioritized on 3 levels, as complete as possible (refer figure 2 for 
+an example of user story template).  
+ 
+Priority levels: 
+1: Must – critical and must be delivered 
+2: Should – have value but may be cut due to time or budget 
+3: Could – either lower priority or need to be further discussed. 
+ 
+Note: You can manually prepare the user story table, or use any open source tools for 
+this purpose and provide snapshots of the user stories in this section or in Appendix. 
+ 
+4 
+ 
+Figure 2: user stories template (you can ignore the estimate part) 
+ 
+ 
+2.2 Functional requirements – Use cases 
+ 
+2.2.1 Use case list 
+ 
+- Provide a concise text descriptions for all use cases in a table form. 
+ 
+ 
+2.2.2 Use case diagram 
+ 
+- Draw a use case diagram to describe all possible interactions between actors and 
+the system 
+ 
+Note: You can manually prepare the use case diagram, or use any open source tools for 
+this purpose and provide snapshots of the diagram in this section. 
+ 
+ 
+2.3 Non-functional requirements 
+ 
+- Provide a non-functional requirements list and their description in a table 
+form. 
+ 
+ 
+ 
+3. System Architecture and Design 
+ 
+3.1 Architectural design  
+ 
+3.1.1 Conceptual view 
+ 
+- Draw a conceptual view that shows the high-level design or an overview of 
+the proposed system architecture. Briefly describe the design. 
+5 
+3.1.2 Process view 
+ 
+- Draw a process view that shows the high-level design or an overview of the 
+network/proposed system architecture. Briefly describe the design. 
+ 
+ 
+3.2 Detailed design  
+ 
+3.2.1 User interface design 
+ 
+- Provide sketches of your system designs and briefly describe them. 
+ 
+a. Windows/mobile/browser screen design    
+ 
+b. Forms (input) and reports (output) design 
+ 
+ 
+- References 
+- Appendices 
+ 
+ 
+ 
+Cover page:   
+ 
+- Provide your team name, SDG that you are addressing, project title, project member 
+names, matric numbers, schools and project roles, as shown in the table below.  
+ 
+- State submission date on the cover page of the report.  
+ 
+Team name: ABC 
+SDG 14: Life Below Water 
+Project title: Living Life Matters 
+ 
+Student Name Matric No. School  Project Role 
+ 
+ 
+ 
+Submission date:  
+19th December 2021 (Week 8) 

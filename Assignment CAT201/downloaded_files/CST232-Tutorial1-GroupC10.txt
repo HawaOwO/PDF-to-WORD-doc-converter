@@ -1,0 +1,96 @@
+TUTORIAL 1 (C10)
+1. Muhammad Irfan Tijanie Bin Mohammad Tasnim - 153309
+2. Nur Atasha Binti Nasrul - 152522
+3. Nur Afina Binti Mohammad Nadzri - 152843
+4. Anis Nabila Binti Mazlan Ros- 153597
+TUTORIAL 1 (CST232/W2/CHAPTER1)
+1. Can a computer run on more than one operating system (OS) at same time? Explain your
+answer.
+Ans:
+Operating System is a program that controls the execution of application programs and acts
+as an interface between the user of a computer and the computer hardware. Most computers
+can be configured to run more than one operating system. Windows, macOS, and Linux can
+exist on one physical computer. There are two strategies available for installing multiple
+operating systems on a single computer.
+The first one is Dual (or multiple) boot. We can install two operating system on our hard drive and
+each time while booting, we will be asked to choose one of the operating systems to work upon.
+On dual boot, device can only be accessed to a single operating system so its performance is
+same as that in case of single boot. Next, Virtual machines. In this case, "virtualization" software
+is installed as just another program within the parent operating system. The virtualization
+program is then used to set up multiple "virtual" computers than run within the main operating
+system. Multiple operating systems may be running and accessible at the same time.
+YES, 1) DUAL BOOTING need to restart ii) Install multiple OS on the same pc iii) on
+different partitioons on hard disk iv) different hard disk
+2) virtualization or virtual machine: i) use software to emulate another machine ii) creates
+virtual environment for multiple operating systems ii) Each virtual machine can be loaded
+with different OS iv) easily switch to another OS (or VM) without restarting pc
+2. Show how each of the following operating systems can be used, using common or real life
+examples.
+a) Batch OS
+b) Interactive OS
+c) Real time OS
+Ans:
+a) In the payroll system, the system must handle employees’ salaries, bonuses, deduct
+and tax to automate employees’ payroll at the end of a month. In batch operating system,
+the computer will be assigned jobs as a whole and in sequence. Example of the jobs is
+inputting employees’ rough salary, deducting tax pay cut, or adding a bonus. This data will
+be inputted by the payroll department over a period of a month. Jobs that use the same
+operation will be grouped into a batch. This will cut the processing time as the computer
+doesn’t have to allocate multiple resources for the same operation. The processing will run
+continuously even without a human supervisor. The computer will send the output to a
+printer to print the payroll.
+generate monthly sales report/payroll, print daily transaction, index stored images or
+videos, etc
+b) Interactive OS allows users to directly interact with the operating system via
+command terminal or graphic user interface. Multiple programs can run at the same time
+because the computer will share processing power. This operating system can be used in
+bus booking systems. The user will input the seat that he wants and the computer will
+reserve the seat.
+i) answer customer enquiry ii) use microsoft office application ii) upload documents
+to server, etc ; customer service call
+c) Real-time operating systems are used in time-critical environments where reliability is
+critical and the task must be completed before the deadline. In air traffic control, a hard
+real-time system is used where if a task can’t be completed before its deadline, or the
+systems will be considered to suffer a failure. One of the features of an air traffic control
+system is path determining. Failure to determine airplane path in time will result in air traffic
+congestion. The system scheduler will assign a deadline based on the priority of the task.
+The highest priority task will be allocated more processing power by the computer to
+complete the task in time
+Bank ATM, online payment, online audio, video streaming, patient monitoring in
+hospital especially at the ICU, etc (immediate response)
+3. Explain why multiprogramming was introduced in the 1960s and how it was implemented?
+Ans:
+Back before 1960, there were only single-stream batch processing systems where the jobs
+needed to be grouped first then executed one group after another. So, to overcome this slow
+speed of processing, multiprogramming was introduced in late 1960 where it can execute
+multiple jobs at the same time which basically supported multitasking.
+In a multiprogramming system, several jobs are kept in memory at the same time. Initially, all
+jobs are in the ready state. One of the ready jobs is selected to execute on the CPU and
+changes state from ready to running. Then it will be in a waiting state when making a request
+to I/O. Instead of just waiting on the CPU, another ready job is selected to execute on the
+CPU. Eventually the I/O request of the first job will be complete and the CPU will be notified
+by an interrupt. The cycle will keep going.
+Cpu was very fast but the i/o devices were very much slower in speed, this makes the
+cpu become idle most of the time when the program needs the services of the i/o
+devices. Therefore, the multiprogramming is introduced where many programs are
+loaded at one time and sharing the attention of the single cpu.
+Implementation: 1) active programming i) each program is allowed to use only a
+preset slice of cpu ii) when the time expire, the job was interrupted and another was
+allowed to begin execution iii) the interrupted job has to wait until it was allowed to
+resume execution later
+2) passive programming ; program was serviced in turn, one after the other. When a
+program issued a print command, it generated an interrupt requesting the services of
+the i/o processor and the cpu was released to begin execution of the next job iii) the
+os did not control the interrupt but waited for each job to end an execution sequences
+4. Show the steps performed by the operating system managers as they execute a user
+instruction to copy a file from one folder to another
+Ans:
+When a process wants to copy a file, it must use an operating system command to copy the
+file. The operating system asks the disk controller to locate the file, and the operating system
+saves the filename and disk address information in a file-control block in primary storage.
+When a process wants to paste the file it has copied, it uses the operating system command
+to paste. The device driver uses the information that the operating system saved in the
+file-control block to tell the disk controller the precise address on the disk to paste the
+desired file to another folder.
+When a process with a file is finished, the operating system then deletes the file-control
+block it held for the file.
